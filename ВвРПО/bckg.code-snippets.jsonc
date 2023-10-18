@@ -1,0 +1,25 @@
+{	
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+},
+
+"background image": {
+	"scope": "javascript,typescript",
+	"prefix": "bckd",
+	"body": [
+	  "\"background color #93\",",
+	  "\"background-image url('$1');\",",
+	  "\"background-position center center; // x y\",",
+	  "\"background-size cover;\",",
+	  "\"background-repeat: no-repeat;\""
+	  $2
+	],
+	"description": "background image"
+  }
